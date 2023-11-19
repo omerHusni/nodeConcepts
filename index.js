@@ -1,6 +1,6 @@
-const crypto = require('crypto');
-
 process.env.UV_THREADPOOL_SIZE = 5;
+
+const crypto = require('crypto');
 
 const start = Date.now();
 
